@@ -71,7 +71,7 @@ Version 1 of this solution was built on the hack day, the idea being a progress 
 
 |![Image 2 - The first draft of the Minimum Hours Summary, a progress bar](../img/image-2.png)|
 |-|
-|Image 2 - The first draft of the Minimum Hours Summary, a progress bar|
+|*Image 2 - The first draft of the Minimum Hours Summary, a progress bar*|
 
 - Submitted Hours - hours submitted by a nanny that have not yet been approved by the family)
 - Approved Hours - hours submitted by a nanny that ***have*** been approved by the family)
