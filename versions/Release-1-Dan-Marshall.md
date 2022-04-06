@@ -1,3 +1,46 @@
+# Daniel Marshall | Koru Kids | Apprenticeship Portfolio
+
+- Introduction
+- Koru Kids
+	- My role at Koru Kids
+	- Koru Kids Engineering Team
+		- Tech Stack
+- Project 1 - Minimum Hours Summary
+	- Project Outline
+	- The Problem
+	- The Solution
+		- Version 1
+		- Further Research and Design
+		- Version 2
+	- Success Measurement
+
+
+# Introduction
+
+My name is Dan Marshall, and I am an Associate Engineer at Koru Kids, a childcare company based in London. I attended the Makers Academy Bootcamp programme from 6th September - 27th November 2021
+
+This document is my portfolio submission for the Software Developer V1.1 Level 4 Apprenticeship scheme
+
+# Koru Kids
+
+Koru Kids is building the world’s best childcare service, starting in London and now expanding to the rest of the UK. We’re making it easier and more affordable for families to access high quality childcare.
+
+Koru Kids recruits and trains people to be top class childcarers and offers an after school nanny, early years nanny and Home Nursery services to families.
+
+## My role at Koru Kids
+
+I started working at Koru Kids in September 2018 in Operations, before moving to Payroll Operations in 2019. My roles involved building low and no-code systems to allow us to invoice up to 1800 families, and pay 1800 nannies each month. Koru Kids started only 5 years ago, as an Operations heavy company, so many of our systems were originally built without engineering capacity and so the things I built were used while our engineering team were working their way towards ‘productising’ everything.
+
+I attended Makers Academy Bootcamp in Sept 2021 on the recommendation of a member of the engineering team, and since returning I have been working in the ‘Essentials Team’
+
+## Koru Kids Engineering Team
+
+The Essentials Team currently consists of myself, an Associate Engineer, and 2 other Senior Engineers - our domain is around everything involving the relationships between families and nannies who are currently working together. Our largest service is the ‘Afterschool Service’, so this largely involves improving and maintaining payroll systems to ensure a smooth invoicing and paying experience for our families, nannies, and the operations team at Koru Kids, but can extend to contracts, trials, and a host of other ‘essential services’ for our working relationships.
+
+### Tech Stack
+
+Koru Kids works largely in Ruby, Ruby on Rails and ReactJS, with other languages sprinkled around such as HAML for page and email rendering
+
 # Project 1 - Minimum Hours Summary
 
 ## Project Outline
@@ -6,7 +49,7 @@ This ticket was suggested during our Christmas Hack Day event on the 22nd Decemb
 
 |![Image 1 - the ticket from the hack day event](../img/image-1.png)|
 |-|
-|*Image 1 - the ticket from the hack day event*|
+|Image 1 - the ticket from the hack day event|
 
 This ticket was suggested by someone in our customer service team as part of this hack day *(image 1).* I picked up this ticket as the problem to solve during the hack day as it was something that I had experienced the side effects of in my old role at Koru Kids so I had a good context for what the issue was already. I, along with an engineer from another team, worked on this ticket together for the period of the hack day, and put forward a first draft to the company that afternoon. The ticket then sat on my backlog after Christmas, as there were more pressing team priorities that took place, but I then picked it up again in early March when I had some free time to be able to work on the project.
 
@@ -28,7 +71,7 @@ Version 1 of this solution was built on the hack day, the idea being a progress 
 
 |![Image 2 - The first draft of the Minimum Hours Summary, a progress bar](../img/image-2.png)|
 |-|
-|*Image 2 - The first draft of the Minimum Hours Summary, a progress bar*|
+|Image 2 - The first draft of the Minimum Hours Summary, a progress bar|
 
 - Submitted Hours - hours submitted by a nanny that have not yet been approved by the family)
 - Approved Hours - hours submitted by a nanny that ***have*** been approved by the family)
@@ -52,7 +95,7 @@ I also had a meeting with a few members of the customer service team, taking thi
 
 |![Image 3 - Design for Version 2](../img/image-3.png)|
 |-|
-|*Image 3 - Design for Version 2*|
+|Image 3 - Design for Version 2|
 
 The overall view from customer service was that this design was much clearer that the original progress bar, and conveyed the calculation better. They did, however, say that there needed to be some copy accompanying this diagram to both explain the complex issue better, and triage any further queries to the right place. We worked together on the copy that would be most suitable, and how this should be displayed to the user.
 
@@ -62,13 +105,13 @@ Version 2 of the Minimum Hours Summary was based on the design shown in Image 3.
 
 |![Image 4 - a single box component](../img/image-4.png)|![Image 5 - the grid component for displaying multiple boxes](../img/image-5.png)
 |-|-|
-|*Image 4 - a single box component*|*Image 5 - the grid component for displaying multiple boxes*|
+|Image 4 - a single box component|Image 5 - the grid component for displaying multiple boxes|
 
 After adding the copy that was decided on during the meeting with customer service, I realised that the component, along with the copy, was taking up too much space on the page, a page that is extremely valuable as it’s where families to go to approve shifts so our nannies can be paid - if families are distracted from the main CTA (approving shifts) then there was a risk that I would have created a bigger problem than before.
 
 |![Image 6 - the component in ‘untoggled’ mode](../img/image-6.png)|![Image 7 - the full component with copy in ‘expanded’ mode](../img/image-7.png)|
 |-|-|
-|*Image 6 - the component in ‘untoggled’ mode*|*Image 7 - the full component with copy in ‘expanded’ mode*|
+|Image 6 - the component in ‘untoggled’ mode|Image 7 - the full component with copy in ‘expanded’ mode|
 
 I decided to wrap my grid component in an accordion component, so it could be toggled to be visible or not, saving space on the page when needed - the final version that has gone live is shown in images 6 and 7.
 
@@ -80,7 +123,7 @@ I also designed the component to be suitable for mobile users - a large majority
 
 |![Image 8 - Mobile view of the Minimum Hours Summary](../img/image-8.png)|
 |-|
-|*Image 8 - Mobile view of the Minimum Hours Summary*|
+|Image 8 - Mobile view of the Minimum Hours Summary|
 
 ## Success Measurement
 
@@ -90,8 +133,11 @@ This feature only went live on the 8th March, so the true benefit of this featur
 
 I did, however, built event tracking into the feature to see if users were clicking on this feature when they saw it - no marketing was done for this feature, so it will only have organic discovery from users.
 
-|![Image 9 - Amplitude graph showing unique users viewing the feature](../img/image-9.png)|
+|![Image 9](../img/image-9.png)|
 |-|
-|*Image 9 - Amplitude graph showing unique users viewing the feature*|
+|Image 9 - Amplitude graph showing unique users viewing the feature|
 
 Using Amplitude to track the events, a total of **425 unique users** have clicked on the accordion to view its contents (at the time of writing this report) - with roughly 1800 users who would currently use this page to review their nanny’s timesheet, thats **24% of potential users** viewing this component in less than 1 month of it being live. This suggests that come the end of the month, users will be familiar with their Minimum Hours total for the month, so will be less inclined to contact us regarding their invoice.
+
+
+

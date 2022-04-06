@@ -1,0 +1,13 @@
+- Introduction
+- Koru Kids
+	- My role at Koru Kids
+	- Koru Kids Engineering Team
+		- Tech Stack
+- Project 1 - Minimum Hours Summary
+	- Project Outline
+	- The Problem
+	- The Solution
+		- Version 1
+		- Further Research and Design
+		- Version 2
+	- Success Measurement
